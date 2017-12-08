@@ -1,7 +1,19 @@
 {
-  "name": "eslint-config",
+  "name": "@canastro/eslint-config",
   "version": "1.0.0",
   "description": "ESLint rules!",
   "author": "Ricardo Canastro",
-  "license": "ISC"
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canastro/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/canastro/eslint-config/issues"
+  },
+  "homepage": "https://github.com/canastro/eslint-config#readme"
 }
