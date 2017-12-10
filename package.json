@@ -1,6 +1,6 @@
 {
   "name": "@canastro/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint rules!",
   "author": "Ricardo Canastro",
   "license": "ISC",
