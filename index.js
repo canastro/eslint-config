@@ -1,24 +1,29 @@
 module.exports = {
-    extends: ['airbnb'],
     parserOptions: {
         sourceType: 'module'
     },
     rules: {
-        'sort-keys': 'off',
-        'max-len': ['warn', 100, 4],
-        indent: ['error', 4],
-        'linebreak-style': ['error', 'unix'],
-        quotes: ['error', 'single'],
-        semi: ['error', 'always'],
+        'array-bracket-spacing': ['error', 'never'],
         'comma-dangle': ['error', 'never'],
-        'no-cond-assign': ['error', 'always'],
+        'global-require': 'off',
         'import/no-named-as-default': 'off',
         'import/prefer-default-export': 'off',
-
-        'jsx-a11y/no-static-element-interactions': 'off',
         'jsx-a11y/no-noninteractive-element-interactions': 'off',
-
+        'jsx-a11y/no-static-element-interactions': 'off',
+        'key-spacing': [
+            'error',
+            {
+                mode: 'strict'
+            }
+        ],
+        'linebreak-style': ['error', 'unix'],
+        'max-len': ['warn', 100, 4],
+        'no-cond-assign': ['error', 'always'],
         'no-console': 'off',
-        'global-require': 'off'
+        'object-curly-spacing': ['error', 'never'],
+        'sort-keys': 'off',
+        indent: ['error', 4],
+        quotes: ['error', 'single'],
+        semi: ['error', 'always']
     }
 };
